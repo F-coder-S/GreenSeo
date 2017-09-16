@@ -1,0 +1,22 @@
+name = greenSEO
+description = A multi-column theme which can be configured to modify colors and switch between fixed and fluid width layouts.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = style.css
+stylesheets[all][] = media.css
+stylesheets[all][] = animate.css
+settings[garland_width] = fluid
+
+regions[header] = Шапка
+regions[sidebar_second] = Левый сайтбар
+regions[content] = Контент
+regions[footer] = Футер
+regions[closed] = Самописные блоки
+regions[seo_page] = Блоки на странице "SEO продвижение сайтов"
+
+; Information added by Drupal.org packaging script on 2014-04-16
+version = "7.50"
+project = "drupal"
+datestamp = "1397687057"
+
